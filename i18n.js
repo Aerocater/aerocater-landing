@@ -17,8 +17,8 @@ const translations = {
     trust_strip: {
       item1: "Encrypted in transit & at rest",
       item2: "Row-level access control",
-      item3: "Full audit trail",
-      item4: "SOC 2–compliant infrastructure"
+      item3: "Individual activity logging",
+      item4: "SOC 2 compliance in progress"
     },
     origin: {
       badge: "Why AeroCater exists",
@@ -68,8 +68,8 @@ const translations = {
     security: {
       h2: "Built to be trusted with live ops",
       sub: "Straight answers about how AeroCater is built and run, no vague reassurances.",
-      item1_h: "Encrypted, access-controlled data", item1_p: "All data is encrypted in transit and stored with row-level security, so every user only ever sees the station and role they're authorized for. Hosted on Supabase, built on SOC 2–compliant infrastructure.",
-      item2_h: "Individual driver identity", item2_p: "No shared logins. Every scan and every check-in is tied to a specific person, with a full audit trail.",
+      item1_h: "Encrypted, access-controlled data", item1_p: "All data is encrypted in transit and stored with row-level security, so every user only ever sees the station and role they're authorized for. Hosted on Supabase, with SOC 2 compliance in progress.",
+      item2_h: "Individual driver identity", item2_p: "No shared logins. Every scan and every check-in is tied to a specific person and logged for review.",
       item3_h: "Built around real operational timing", item3_p: "Food-safety windows, turnaround buffers, and shift boundaries are enforced in the dispatch logic itself, not left to a spreadsheet.",
       item4_h: "Direct support, not a ticket queue", item4_p: "You reach the team that builds AeroCater directly, not a tiered support desk reading from a script."
     },
@@ -108,8 +108,8 @@ const translations = {
     trust_strip: {
       item1: "Chiffré en transit et au repos",
       item2: "Contrôle d'accès par ligne",
-      item3: "Journal d'audit complet",
-      item4: "Infrastructure conforme SOC 2"
+      item3: "Journalisation individuelle des activités",
+      item4: "Conformité SOC 2 en cours"
     },
     origin: {
       badge: "Pourquoi AeroCater existe",
@@ -159,8 +159,8 @@ const translations = {
     security: {
       h2: "Conçu pour être digne de confiance avec des opérations en direct",
       sub: "Des réponses claires sur la façon dont AeroCater est conçu et exploité, sans vagues assurances.",
-      item1_h: "Données chiffrées et à accès contrôlé", item1_p: "Toutes les données sont chiffrées en transit et stockées avec une sécurité au niveau des lignes, afin que chaque utilisateur ne voie que la station et le rôle pour lesquels il est autorisé. Hébergé sur Supabase, sur une infrastructure conforme SOC 2.",
-      item2_h: "Identité individuelle des chauffeurs", item2_p: "Aucun identifiant partagé. Chaque scan et chaque présence est lié à une personne précise, avec un journal d'audit complet.",
+      item1_h: "Données chiffrées et à accès contrôlé", item1_p: "Toutes les données sont chiffrées en transit et stockées avec une sécurité au niveau des lignes, afin que chaque utilisateur ne voie que la station et le rôle pour lesquels il est autorisé. Hébergé sur Supabase, avec une conformité SOC 2 en cours.",
+      item2_h: "Identité individuelle des chauffeurs", item2_p: "Aucun identifiant partagé. Chaque scan et chaque présence est lié à une personne précise et journalisé aux fins de révision.",
       item3_h: "Construit autour du rythme opérationnel réel", item3_p: "Fenêtres de sécurité alimentaire, marges de rotation et limites de quart sont appliquées directement dans la logique de répartition, pas laissées à une feuille de calcul.",
       item4_h: "Support direct, pas une file de tickets", item4_p: "Vous joignez directement l'équipe qui construit AeroCater, pas un service de support à paliers qui lit un script."
     },
@@ -199,8 +199,8 @@ const translations = {
     trust_strip: {
       item1: "Cifrado en tránsito y en reposo",
       item2: "Control de acceso por fila",
-      item3: "Registro de auditoría completo",
-      item4: "Infraestructura conforme a SOC 2"
+      item3: "Registro individual de actividad",
+      item4: "Cumplimiento de SOC 2 en curso"
     },
     origin: {
       badge: "Por qué existe AeroCater",
@@ -250,8 +250,8 @@ const translations = {
     security: {
       h2: "Construido para ser confiable con operaciones en vivo",
       sub: "Respuestas directas sobre cómo se construye y opera AeroCater, sin garantías vagas.",
-      item1_h: "Datos cifrados y con acceso controlado", item1_p: "Todos los datos están cifrados en tránsito y almacenados con seguridad a nivel de fila, de modo que cada usuario solo ve la estación y el rol para los que está autorizado. Alojado en Supabase, sobre infraestructura conforme a SOC 2.",
-      item2_h: "Identidad individual del conductor", item2_p: "Sin inicios de sesión compartidos. Cada escaneo y cada registro de entrada están vinculados a una persona específica, con un registro de auditoría completo.",
+      item1_h: "Datos cifrados y con acceso controlado", item1_p: "Todos los datos están cifrados en tránsito y almacenados con seguridad a nivel de fila, de modo que cada usuario solo ve la estación y el rol para los que está autorizado. Alojado en Supabase, con el cumplimiento de SOC 2 en curso.",
+      item2_h: "Identidad individual del conductor", item2_p: "Sin inicios de sesión compartidos. Cada escaneo y cada registro de entrada están vinculados a una persona específica y quedan registrados para su revisión.",
       item3_h: "Construido alrededor del ritmo operativo real", item3_p: "Las ventanas de seguridad alimentaria, los márgenes de rotación y los límites de turno se aplican directamente en la lógica de despacho, no se dejan a una hoja de cálculo.",
       item4_h: "Soporte directo, no una cola de tickets", item4_p: "Usted contacta directamente al equipo que construye AeroCater, no a una mesa de soporte por niveles que lee un guion."
     },
@@ -290,8 +290,8 @@ const translations = {
     trust_strip: {
       item1: "مشفّرة أثناء النقل والتخزين",
       item2: "تحكم بالوصول على مستوى كل سجل",
-      item3: "سجل تدقيق كامل",
-      item4: "بنية تحتية متوافقة مع SOC 2"
+      item3: "تسجيل الأنشطة الفردية",
+      item4: "الامتثال لمعيار SOC 2 قيد التنفيذ"
     },
     origin: {
       badge: "لماذا أُنشئت AeroCater",
@@ -341,8 +341,8 @@ const translations = {
     security: {
       h2: "مصمّمة لتكون موضع ثقة مع العمليات الحية",
       sub: "إجابات مباشرة عن كيفية بناء AeroCater وتشغيلها، دون طمأنات غامضة.",
-      item1_h: "بيانات مشفّرة وبوصول مُتحكَّم به", item1_p: "جميع البيانات مشفّرة أثناء النقل ومخزَّنة بأمان على مستوى كل سجل، بحيث لا يرى كل مستخدم سوى المحطة والدور المصرَّح له بهما. مستضافة على Supabase، على بنية تحتية متوافقة مع SOC 2.",
-      item2_h: "هوية فردية لكل سائق", item2_p: "لا حسابات دخول مشتركة. كل عملية مسح وكل تسجيل حضور مرتبطان بشخص محدد، مع سجل تدقيق كامل.",
+      item1_h: "بيانات مشفّرة وبوصول مُتحكَّم به", item1_p: "جميع البيانات مشفّرة أثناء النقل ومخزَّنة بأمان على مستوى كل سجل، بحيث لا يرى كل مستخدم سوى المحطة والدور المصرَّح له بهما. مستضافة على Supabase، والامتثال لمعيار SOC 2 قيد التنفيذ.",
+      item2_h: "هوية فردية لكل سائق", item2_p: "لا حسابات دخول مشتركة. كل عملية مسح وكل تسجيل حضور مرتبطان بشخص محدد ومُسجَّلان للمراجعة.",
       item3_h: "مبنية حول التوقيت التشغيلي الفعلي", item3_p: "تُطبَّق نوافذ السلامة الغذائية، وهوامش الدوران، وحدود الورديات مباشرة داخل منطق الجدولة نفسه، لا تُترك لجدول بيانات.",
       item4_h: "دعم مباشر، لا طابور تذاكر", item4_p: "تتواصل مباشرة مع الفريق الذي يبني AeroCater، لا مع مكتب دعم متعدد المستويات يقرأ من نص جاهز."
     },
@@ -381,8 +381,8 @@ const translations = {
     trust_strip: {
       item1: "传输与静态数据均加密",
       item2: "行级访问控制",
-      item3: "完整审计记录",
-      item4: "符合 SOC 2 标准的基础设施"
+      item3: "个人操作记录",
+      item4: "SOC 2 合规认证进行中"
     },
     origin: {
       badge: "AeroCater 的由来",
@@ -432,8 +432,8 @@ const translations = {
     security: {
       h2: "为承载实时运营而设计,值得信赖",
       sub: "关于 AeroCater 如何构建与运行,直接给出明确答案,不作模糊的安全承诺。",
-      item1_h: "数据加密,访问受控", item1_p: "所有数据在传输过程中均加密,存储时采用行级安全策略,确保每位用户只能看到其被授权的站点与角色范围内的数据。托管于 Supabase,基础设施符合 SOC 2 标准。",
-      item2_h: "司机身份精确到个人", item2_p: "不使用共享账号。每一次扫描、每一次签到都对应具体的个人,并留有完整的审计记录。",
+      item1_h: "数据加密,访问受控", item1_p: "所有数据在传输过程中均加密,存储时采用行级安全策略,确保每位用户只能看到其被授权的站点与角色范围内的数据。托管于 Supabase,SOC 2 合规工作正在进行中。",
+      item2_h: "司机身份精确到个人", item2_p: "不使用共享账号。每一次扫描、每一次签到都对应具体的个人,并被记录以供审查。",
       item3_h: "围绕真实运营时序构建", item3_p: "食品安全窗口期、周转缓冲时间与班次边界都直接写入调度逻辑本身执行,而不是依赖一张表格来把关。",
       item4_h: "直接对接支持团队,而非工单排队", item4_p: "您可以直接联系到构建 AeroCater 的团队本身,而不是照本宣科的分级客服。"
     },
