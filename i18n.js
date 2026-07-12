@@ -36,14 +36,14 @@ const translations = {
       h2: "From flight schedule to loaded aircraft",
       step1_t: "Flights sync in", step1_d: "Schedules come in automatically, each with its catering requirement attached.",
       step2_t: "Auto-dispatch assigns", step2_d: "Trucks and drivers are matched by shift, drive time, and workload, without a dispatcher building the board by hand.",
-      step3_t: "Drivers scan on the ramp", step3_d: "Every trolley is scanned at pickup and again at the aircraft, from a phone.",
+      step3_t: "Drivers scan at the loading unit", step3_d: "Every trolley is scanned once, directly at the loading unit, before it goes on the truck.",
       step4_t: "Dispatch sees it live", step4_d: "Status, location, and exceptions update on the board as they happen."
     },
     cap: {
       h2: "Depth built for running a station, not just a truck",
       sub: "Beyond dispatch and scanning: the parts of the job that matter once you're running real volume.",
       card1_num: "FLEET HEALTH", card1_t: "See a problem before it's a delay", card1_d: "Live hydraulic cycles, service windows, and alerts surface issues before a truck fails mid-turnaround.",
-      card2_num: "MULTI-STATION", card2_t: "One account, every station", card2_d: "Run every airport your team covers from a single dispatch board — no separate logins, no spreadsheet per station.",
+      card2_num: "STATION ISOLATION", card2_t: "Every station stands alone", card2_d: "Each station runs on its own account, its own staff, and its own data — no shared logins, no visibility across sites, even for one operator running five stations.",
       card3_num: "REPORTING", card3_t: "Every scan, ready for an audit", card3_d: "Trolley scans, dispatch assignments, and driver check-ins export cleanly, built for the reporting an airline audit actually asks for.",
       card4_num: "LIVE ALERTS", card4_t: "Flagged before it becomes a delay", card4_d: "SLA risk, hydraulic thresholds, and unassigned flights surface on the board the moment they cross a threshold."
     },
@@ -56,7 +56,7 @@ const translations = {
       c3_k: "FLEET & ALERTS", c3_p: "Truck health and live warnings, updated in real time."
     },
     mobile: {
-      eyebrow: "In the field",
+      eyebrow: "At the loading unit",
       h2: "Drivers scan. Dispatch knows. Instantly.",
       sub: "No app store download, no separate password — just a personal link and a camera.",
       alt: "AeroCater driver app on a phone, mid-scan of a trolley QR label, showing 6 scanned confirmation",
