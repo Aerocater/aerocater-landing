@@ -127,14 +127,14 @@ const translations = {
       h2: "De l'horaire de vol à l'avion chargé",
       step1_t: "Les vols arrivent automatiquement", step1_d: "Les horaires sont synchronisés automatiquement, chacun avec ses exigences de restauration déjà attachées.",
       step2_t: "La répartition automatique assigne", step2_d: "Camions et chauffeurs sont jumelés selon le quart, le temps de trajet et la charge de travail, sans qu'un répartiteur construise le tableau à la main.",
-      step3_t: "Les chauffeurs scannent sur le tarmac", step3_d: "Chaque chariot est scanné au chargement, puis de nouveau à l'avion, depuis un téléphone.",
+      step3_t: "Les chauffeurs scannent au poste de chargement", step3_d: "Chaque chariot est scanné une seule fois, directement au poste de chargement, avant d'être chargé sur le camion.",
       step4_t: "La répartition voit tout en direct", step4_d: "Statut, position et exceptions se mettent à jour sur le tableau au fur et à mesure."
     },
     cap: {
       h2: "Une profondeur pensée pour gérer une station, pas seulement un camion",
       sub: "Au-delà de la répartition et du scan : les aspects qui comptent une fois que le volume devient réel.",
       card1_num: "SANTÉ DE LA FLOTTE", card1_t: "Repérer un problème avant qu'il ne devienne un retard", card1_d: "Cycles hydrauliques en direct, fenêtres d'entretien et alertes signalent les problèmes avant qu'un camion ne tombe en panne en pleine rotation.",
-      card2_num: "MULTI-STATIONS", card2_t: "Un compte, chaque station", card2_d: "Gérez tous les aéroports de votre équipe depuis un seul tableau de répartition — sans connexions séparées, sans feuille de calcul par station.",
+      card2_num: "ISOLATION PAR STATION", card2_t: "Chaque station est indépendante", card2_d: "Chaque station fonctionne avec son propre compte, son propre personnel et ses propres données — aucun identifiant partagé, aucune visibilité entre les sites, même pour un même exploitant gérant cinq stations.",
       card3_num: "RAPPORTS", card3_t: "Chaque scan, prêt pour un audit", card3_d: "Scans de chariots, affectations de répartition et présences des chauffeurs s'exportent proprement, conçus pour les rapports qu'un audit de compagnie aérienne exige réellement.",
       card4_num: "ALERTES EN DIRECT", card4_t: "Signalé avant que ça ne devienne un retard", card4_d: "Risque de délai, seuils hydrauliques et vols non assignés apparaissent sur le tableau dès qu'un seuil est franchi."
     },
@@ -147,7 +147,7 @@ const translations = {
       c3_k: "FLOTTE ET ALERTES", c3_p: "État des camions et alertes en direct, mis à jour en temps réel."
     },
     mobile: {
-      eyebrow: "Sur le terrain",
+      eyebrow: "Au point de chargement",
       h2: "Les chauffeurs scannent. La répartition sait. Instantanément.",
       sub: "Aucun téléchargement d'application, aucun mot de passe séparé — juste un lien personnel et un appareil photo.",
       alt: "Application chauffeur AeroCater sur un téléphone, en train de scanner une étiquette QR de chariot, affichant une confirmation de 6 scans",
@@ -218,14 +218,14 @@ const translations = {
       h2: "Del horario de vuelo al avión cargado",
       step1_t: "Los vuelos se sincronizan", step1_d: "Los horarios entran automáticamente, cada uno con su requisito de catering ya adjunto.",
       step2_t: "El despacho automático asigna", step2_d: "Camiones y conductores se emparejan por turno, tiempo de traslado y carga de trabajo, sin que un despachador arme el tablero a mano.",
-      step3_t: "Los conductores escanean en la rampa", step3_d: "Cada carrito se escanea al retirarlo y de nuevo en el avión, desde un teléfono.",
+      step3_t: "Los conductores escanean en el punto de carga", step3_d: "Cada carrito se escanea una sola vez, directamente en el punto de carga, antes de subirlo al camión.",
       step4_t: "El despacho lo ve en vivo", step4_d: "Estado, ubicación y excepciones se actualizan en el tablero a medida que ocurren."
     },
     cap: {
       h2: "Profundidad pensada para operar una estación, no solo un camión",
       sub: "Más allá del despacho y el escaneo: las partes del trabajo que importan cuando el volumen es real.",
       card1_num: "SALUD DE LA FLOTA", card1_t: "Detectar un problema antes de que sea un retraso", card1_d: "Ciclos hidráulicos en vivo, ventanas de servicio y alertas exponen problemas antes de que un camión falle a mitad de una rotación.",
-      card2_num: "MULTI-ESTACIÓN", card2_t: "Una cuenta, cada estación", card2_d: "Opere todos los aeropuertos de su equipo desde un solo tablero de despacho — sin inicios de sesión separados, sin una hoja de cálculo por estación.",
+      card2_num: "AISLAMIENTO POR ESTACIÓN", card2_t: "Cada estación es independiente", card2_d: "Cada estación opera con su propia cuenta, su propio personal y sus propios datos — sin inicios de sesión compartidos, sin visibilidad entre sedes, incluso para un mismo operador que gestiona cinco estaciones.",
       card3_num: "REPORTES", card3_t: "Cada escaneo, listo para una auditoría", card3_d: "Escaneos de carritos, asignaciones de despacho y registros de conductores se exportan de forma limpia, pensados para el reporte que una auditoría aérea realmente exige.",
       card4_num: "ALERTAS EN VIVO", card4_t: "Señalado antes de convertirse en un retraso", card4_d: "Riesgo de SLA, umbrales hidráulicos y vuelos sin asignar aparecen en el tablero en el momento en que cruzan un umbral."
     },
@@ -238,7 +238,7 @@ const translations = {
       c3_k: "FLOTA Y ALERTAS", c3_p: "Estado de camiones y alertas en vivo, actualizados en tiempo real."
     },
     mobile: {
-      eyebrow: "En el terreno",
+      eyebrow: "En el punto de carga",
       h2: "Los conductores escanean. El despacho lo sabe. Al instante.",
       sub: "Sin descarga de app, sin contraseña separada — solo un enlace personal y una cámara.",
       alt: "App de conductor de AeroCater en un teléfono, escaneando una etiqueta QR de un carrito, mostrando confirmación de 6 escaneos",
