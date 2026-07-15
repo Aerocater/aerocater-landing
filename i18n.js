@@ -11,7 +11,8 @@ const translations = {
       h1: "Every truck, every trolley, accounted for.",
       sub: "AeroCater replaces the whiteboard and the group chat with one dispatch board built around the mechanics of catering a flight — not a generic delivery route.",
       cta_primary: "Book a demo",
-      cta_secondary: "See the platform"
+      cta_secondary: "See the platform",
+      cta_sample: "Try with sample data"
     },
     board: { aria: "Live dispatch board animation showing simulated flight and trolley assignments", live: "Live dispatch feed" },
     trust_strip: {
@@ -102,7 +103,8 @@ const translations = {
       h1: "Chaque camion, chaque chariot, sous contrôle.",
       sub: "AeroCater remplace le tableau blanc et le groupe de discussion par un seul tableau de répartition, conçu autour des contraintes propres à la restauration à bord — pas d'une tournée de livraison générique.",
       cta_primary: "Réserver une démo",
-      cta_secondary: "Voir la plateforme"
+      cta_secondary: "Voir la plateforme",
+      cta_sample: "Essayer avec des données d'exemple"
     },
     board: { aria: "Animation d'un tableau de répartition en direct montrant des affectations de vols et de chariots simulées", live: "Flux de répartition en direct" },
     trust_strip: {
@@ -193,7 +195,9 @@ const translations = {
       h1: "Cada camión, cada carrito, bajo control.",
       sub: "AeroCater reemplaza la pizarra y el grupo de chat con un solo tablero de despacho construido alrededor de la mecánica real de abastecer un vuelo — no de una ruta de reparto genérica.",
       cta_primary: "Solicitar demo",
-      cta_secondary: "Ver la plataforma"
+      cta_secondary: "Ver la plataforma",
+      cta_sample: "Probar con datos de ejemplo"
+
     },
     board: { aria: "Animación de un tablero de despacho en vivo mostrando asignaciones simuladas de vuelos y carritos", live: "Feed de despacho en vivo" },
     trust_strip: {
