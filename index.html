@@ -313,6 +313,22 @@
   @media (prefers-reduced-motion: reduce){
     *{animation-duration:0.01ms !important;animation-iteration-count:1 !important;transition-duration:0.01ms !important}
   }
+/* ---------- COOKIE BANNER ---------- */
+  .cookie-banner{
+    position:fixed;left:0;right:0;bottom:-200px;z-index:100;
+    background:var(--panel-2);border-top:1px solid var(--line);
+    padding:20px 16px;transition:bottom .25s ease;
+    box-shadow:0 -8px 24px rgba(0,0,0,0.3);
+  }
+  .cookie-banner--visible{bottom:0}
+  .cookie-banner-inner{max-width:var(--max);margin:0 auto;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px}
+  .cookie-banner-inner p{color:var(--text-dim);font-size:14px;max-width:640px;margin:0}
+  .cookie-banner-inner a{color:var(--blue);text-decoration:underline}
+  .cookie-banner-actions{display:flex;gap:10px;flex-shrink:0}
+  .cookie-btn{font-family:var(--font-body);font-size:13px;font-weight:600;padding:9px 16px;border-radius:6px;cursor:pointer;border:1px solid var(--line);background:transparent;color:var(--text)}
+  .cookie-btn-primary{background:var(--amber);color:var(--amber-ink);border-color:var(--amber)}
+  .cookie-btn-ghost:hover{border-color:var(--amber)}
+  .cookie-btn-primary:hover{opacity:0.9}
 </style>
 </head>
 <body>
@@ -349,6 +365,7 @@
       <div class="cta-row">
         <a href="#demo" class="btn-primary" data-i18n="hero.cta_primary">Book a demo</a>
         <a href="#platform" class="btn-ghost" data-i18n="hero.cta_secondary">See the platform</a>
+        <a href="https://app.aerocater.ca" class="btn-ghost" data-i18n="hero.cta_sample">Try with sample data</a>
       </div>
     </div>
     <div class="board" role="img" data-i18n-attr="aria-label:board.aria" aria-label="Live dispatch board animation showing simulated flight and trolley assignments">
@@ -574,9 +591,18 @@
         <a href="#pricing" data-i18n="footer.link_pricing">Pricing</a>
         <a href="#demo" data-i18n="footer.link_demo">Book a demo</a>
       </div>
+      <div class="foot-col">
+        <h4 data-i18n="footer.legal_h">Legal</h4>
+        <a href="/terms" data-i18n="footer.link_terms">Terms of Service</a>
+        <a href="/privacy" data-i18n="footer.link_privacy">Privacy Policy</a>
+        <a href="/cookies" data-i18n="footer.link_cookies">Cookie Policy</a>
+        <a href="/security" data-i18n="footer.link_security_page">Security</a>
+        <a href="/sla" data-i18n="footer.link_sla">SLA</a>
+      </div>
     </div>
     <div class="foot-bottom">
       <span dir="ltr">© <span id="yr"></span> AeroCater. <span data-i18n="footer.rights">All rights reserved.</span></span>
+      <a href="#" onclick="window.aerocaterOpenCookiePrefs(); return false;" data-i18n="footer.cookie_prefs">Manage cookie preferences</a>
       <span data-i18n="footer.location">Toronto, Canada</span>
     </div>
   </div>
@@ -584,5 +610,6 @@
 
 <script src="i18n.js"></script>
 <script src="app.js"></script>
+<script src="cookie-consent.js"></script>
 </body>
 </html>
